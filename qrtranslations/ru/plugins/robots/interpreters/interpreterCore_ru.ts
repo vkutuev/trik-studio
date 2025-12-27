@@ -6,17 +6,17 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/ui/robotsSettingsPage.ui" line="+187"/>
         <source>Sensors Settings</source>
-        <translation>Настройки сенсоров</translation>
+        <translation>Настройки датчиков</translation>
     </message>
     <message>
         <location line="-41"/>
         <source>Uploading &amp;&amp; Running</source>
-        <translation>Загрузка и запуск программ</translation>
+        <translation>Загрузка и выполнение</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Running after uploading:</source>
-        <translation>Запуск после загрузки:</translation>
+        <translation>Запускать после загрузки:</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -36,7 +36,7 @@
     <message>
         <location line="+63"/>
         <source>Robotics construction kit</source>
-        <translation>Платформа</translation>
+        <translation>Конструктор по робототехнике</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -46,17 +46,17 @@
     <message>
         <location line="-224"/>
         <source>Graphics Watcher update intervals</source>
-        <translation>Интервалы обновления графиков</translation>
+        <translation>Интервалы обновления графического наблюдателя</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Sensors  (ms)</source>
-        <translation>Сенсоры  (мс)</translation>
+        <translation>Датчики (мс)</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Autoscaling  (ms)</source>
-        <translation>Масштабирование  (мс)</translation>
+        <translation>Автомасштабирование (мс)</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -79,12 +79,12 @@
     <message>
         <location line="+49"/>
         <source>Configure devices</source>
-        <translation>Настройки сенсоров</translation>
+        <translation>Настроить устройства</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Sensors state</source>
-        <translation>Графики</translation>
+        <translation>Состояние датчиков</translation>
     </message>
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/customizer.cpp" line="+54"/>
@@ -94,7 +94,7 @@
     <message>
         <location line="+5"/>
         <source>The list of all declared subprograms in the project</source>
-        <translation>Список всех объявленных в проекте подпрограмм</translation>
+        <translation>Список всех объявленных подпрограмм в проекте</translation>
     </message>
     <message>
         <source>sensor</source>
@@ -113,22 +113,22 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/managers/actionsManager.cpp" line="+32"/>
         <source>Run</source>
-        <translation>Выполнить</translation>
+        <translation>Запустить</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop robot</source>
-        <translation>Остановить</translation>
+        <translation>Остановить робота</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Connect to robot</source>
-        <translation>Подключиться</translation>
+        <translation>Подключиться к роботу</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Save as task...</source>
-        <translation>Сохранить как упражнение...</translation>
+        <translation>Сохранить как задание...</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -138,7 +138,7 @@
     <message>
         <location line="+4"/>
         <source>Edit</source>
-        <translation>Редактор</translation>
+        <translation>Редактирование</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -153,37 +153,37 @@
     <message>
         <location line="+2"/>
         <source>Run interpreter</source>
-        <translation>Запуск интерпретации</translation>
+        <translation>Запустить интерпретатор</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop interpreter</source>
-        <translation>Остановить интерпретацию</translation>
+        <translation>Остановить интерпретатор</translation>
     </message>
     <message>
         <location line="-81"/>
         <source>Robot settings</source>
-        <translation>Настройки</translation>
+        <translation>Настройки робота</translation>
     </message>
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/managers/exerciseExportManager.cpp" line="+53"/>
         <source>Select file to export save to</source>
-        <translation>Укажите имя файла, в который будет сохранено упражнение</translation>
+        <translation>Выберите файл для экспорта сохранения</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>QReal Save File(*.qrs)</source>
-        <translation>Файл сохранения TRIK Studio (*.qrs)</translation>
+        <translation>Файл сохранения QReal (*.qrs)</translation>
     </message>
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/interpreter/details/autoconfigurer.cpp" line="+60"/>
         <source>%2 has been auto configured to port %1</source>
-        <translation>%2 был автоматически сгонфигурирован на порту %1</translation>
+        <translation>%2 был автоматически настроен на порт %1</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Sensor on port %1 does not correspond to blocks on the diagram.</source>
-        <translation>Выставленный на порту %1 сенсор не соответствует блокам на диаграмме.</translation>
+        <translation>Датчик на порту %1 не соответствует блокам на схеме.</translation>
     </message>
 </context>
 <context>
@@ -191,7 +191,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/managers/actionsManager.cpp" line="+10"/>
         <source>To main page</source>
-        <translation>На главную</translation>
+        <translation>На главную страницу</translation>
     </message>
     <message>
         <location line="+246"/>
@@ -201,7 +201,7 @@
     <message>
         <location line="+1"/>
         <source>2D model</source>
-        <translation>2D модель</translation>
+        <translation>2D-модель</translation>
     </message>
 </context>
 <context>
@@ -222,17 +222,17 @@
     <message>
         <location line="+43"/>
         <source>Cannot export exercise to the given location (try to change location)</source>
-        <translation>Экспорт упражнения по заданному пути не удался (попробуйте другой путь)</translation>
+        <translation>Не удалось экспортировать задание в указанное место (попробуйте изменить расположение)</translation>
     </message>
     <message>
         <location line="+115"/>
         <source>The specified script file could not be opened for reading </source>
-        <translation>Не удалось открыть указанный файл для чтения скрипта</translation>
+        <translation>Не удалось открыть указанный файл скрипта для чтения </translation>
     </message>
     <message>
         <location line="+12"/>
         <source>No saved code found in the qrs file</source>
-        <translation>В qrs не найден сохраннёный код</translation>
+        <translation>В файле qrs не найден сохранённый код</translation>
     </message>
     <message>
         <source>No saved js code found in the qrs file</source>
@@ -241,7 +241,7 @@
     <message>
         <location line="+98"/>
         <source>Toggle robot console panel</source>
-        <translation>Показать/спрятать панель консоли</translation>
+        <translation>Показать/скрыть панель консоли робота</translation>
     </message>
 </context>
 <context>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/managers/uiManager.cpp" line="-66"/>
         <source>Miscellaneous</source>
-        <translation>Прочее</translation>
+        <translation>Разное</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -288,17 +288,17 @@
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/interpreter/blockInterpreter.cpp" line="+92"/>
         <location line="+74"/>
         <source>No connection to robot</source>
-        <translation>Нет соединения с роботом</translation>
+        <translation>Нет подключения к роботу</translation>
     </message>
     <message>
         <location line="-68"/>
         <source>Interpreter is already running</source>
-        <translation>Программа уже запущена</translation>
+        <translation>Интерпретатор уже запущен</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>Connected successfully</source>
-        <translation>Подключение к роботу выполнено</translation>
+        <translation>Подключение успешно установлено</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -308,12 +308,12 @@
     <message>
         <location line="+44"/>
         <source>Cannot create new thread with already occupied id %1</source>
-        <translation>Идентификатор потока %1 уже занят</translation>
+        <translation>Невозможно создать новый поток с уже занятым идентификатором %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Threads limit exceeded. Maximum threads count is %1</source>
-        <translation>Превышено максимальное число возможных потоков (максимум %1 потоков)</translation>
+        <translation>Превышен лимит потоков. Максимальное количество потоков — %1</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -326,32 +326,32 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/ui/exerciseExportDialog.cpp" line="+31"/>
         <source>Select non-modifiable parts of exercize</source>
-        <translation>Выберите неизменяемые части упражнения</translation>
+        <translation>Выберите неизменяемые части задания</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>2D model world is read-only</source>
-        <translation>2D модель мира неизменяема</translation>
+        <translation>Мир 2D-модели доступен только для чтения</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Sensors are read-only</source>
-        <translation>Датчики неизменяемы</translation>
+        <translation>Датчики доступны только для чтения</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2D model robot position is read-only</source>
-        <translation>Позиция 2D модели робота неизменяема</translation>
+        <translation>Позиция робота в 2D-модели доступна только для чтения</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Motors to wheels binding is read-only</source>
-        <translation>Редукция мотор-колесо неизменяема</translation>
+        <translation>Привязка моторов к колёсам доступна только для чтения</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2D model simulation settings are read-only</source>
-        <translation>Параметры симуляции неизменяемы</translation>
+        <translation>Настройки симуляции 2D-модели доступны только для чтения</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -369,7 +369,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/ui/modeStripe.cpp" line="+22"/>
         <source>press %2 or click here to switch to %3</source>
-        <translation>нажмите %2 или кликните здесь для переключения в %3</translation>
+        <translation>нажмите %2 или щёлкните здесь, чтобы перейти в %3</translation>
     </message>
 </context>
 <context>
@@ -377,12 +377,12 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/interpreterCore/src/ui/robotsSettingsPage.cpp" line="+78"/>
         <source>No constructor kit plugins loaded</source>
-        <translation>Не загружено ни одного плагина с описанием робоплатформы</translation>
+        <translation>Плагины конструктора не загружены</translation>
     </message>
     <message>
         <location line="+134"/>
         <source>No robot models available for </source>
-        <translation>Ни одной модели робота не найдено в плагине </translation>
+        <translation>Нет доступных моделей робота для </translation>
     </message>
 </context>
 </TS>

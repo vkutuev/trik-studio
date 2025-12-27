@@ -6,12 +6,12 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/ev3KitInterpreter/src/ev3AdditionalPreferences.ui" line="+14"/>
         <source>Form</source>
-        <translation>Настройки EV3</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Robot&apos;s Folders</source>
-        <translation>Папки Робота</translation>
+        <translation>Папки робота</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -37,17 +37,17 @@
         <location line="+6"/>
         <location line="+17"/>
         <source>COM Port:</source>
-        <translation>COM-Порт</translation>
+        <translation>Порт COM:</translation>
     </message>
     <message>
         <location line="-10"/>
         <source>No COM ports found. If you have a Bluetooth connection with active virtual COM port, please enter its name. Example: COM3</source>
-        <translation>COM-порты не найдены. Если установлено Bluetooth-соединение с активным COM-портом, пожалуйста, укажите его имя. Пример: COM3</translation>
+        <translation>Порты COM не найдены. Если у вас есть подключение Bluetooth с активным виртуальным портом COM, введите его имя. Пример: COM3</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Specify COM port manually</source>
-        <translation>Указать COM-порт вручную</translation>
+        <translation>Указать порт COM вручную</translation>
     </message>
 </context>
 <context>
@@ -55,7 +55,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/ev3KitInterpreter/src/ev3DisplayWidget.ui" line="+435"/>
         <source>tr(Ev3Display)</source>
-        <translation>Дисплей EV3</translation>
+        <translation>tr(Ev3Display)</translation>
     </message>
 </context>
 <context>

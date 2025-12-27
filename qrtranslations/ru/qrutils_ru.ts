@@ -29,27 +29,27 @@
     <message>
         <location filename="../../qrutils/expressionsParser/expressionsParser.cpp" line="+642"/>
         <source>Unexpected end of stream at %1. Mb you forget &apos;;&apos;?</source>
-        <translation>Неожиданный конец выражения в позиции %1. Может быть, Вы забыли &apos;;&apos;?</translation>
+        <translation>Неожиданный конец потока в %1. Возможно, вы забыли &apos;;&apos;?</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unexpected symbol at %1 : expected %2, got %3</source>
-        <translation>Неожиданный символ в позиции %1 : ожидалось %2, получено %3</translation>
+        <translation>Неожиданный символ в %1: ожидалось %2, получено %3</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Types mismatch at %1: %2 = %3. Possible loss of data</source>
-        <translation>Несовпадение типов в позиции %1: %2 = %3. Возможна потеря данных</translation>
+        <translation>Несоответствие типов в %1: %2 = %3. Возможна потеря данных</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unknown identifier at %1 &apos; %2 &apos;</source>
-        <translation>Неизвестный идентификатор в позиции %1: &apos;%2&apos;</translation>
+        <translation>Неизвестный идентификатор в %1 &apos; %2 &apos;</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Empty process is unnecessary</source>
-        <translation>Пустое выражение</translation>
+        <translation>Пустой процесс не нужен</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -59,37 +59,37 @@
     <message>
         <location line="+4"/>
         <source>Using reserved variable %1</source>
-        <translation>Использование зарезервированного слова в качестве идентификатора (%1)</translation>
+        <translation>Использование зарезервированной переменной %1</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>No value of expression</source>
-        <translation>Отсутствует значение выражения</translation>
+        <translation>Нет значения выражения</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Incorrect variable declaration: use function block for it</source>
-        <translation>Некорректное объявление пременной: используйте блок &quot;Функция&quot; для этого</translation>
+        <translation>Некорректное объявление переменной: используйте блок функции</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unexpected symbol after the end of expression</source>
-        <translation>Неожиданный символ за концом выражения</translation>
+        <translation>Неожиданный символ после окончания выражения</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Unknown element property used</source>
-        <translation>Неизвестное свойство элемента</translation>
+        <translation>Использовано неизвестное свойство элемента</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Unknown element name used</source>
-        <translation>Неизвестное имя элемента</translation>
+        <translation>Использовано неизвестное имя элемента</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Integer division by zero</source>
-        <translation>Целичисленное деление на ноль</translation>
+        <translation>Целочисленное деление на ноль</translation>
     </message>
     <message>
         <location filename="../../qrutils/graphicsUtils/abstractItem.cpp" line="+620"/>
@@ -185,7 +185,7 @@
     <message>
         <location filename="../../qrutils/graphUtils/baseGraphTransformationUnit.cpp" line="+48"/>
         <source>no current diagram</source>
-        <translation>Откройте диаграмму</translation>
+        <translation>нет текущей диаграммы</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -201,7 +201,7 @@
     <message>
         <location line="+47"/>
         <source>&apos; has unconnected link</source>
-        <translation>&apos; содержит неподключенную связь</translation>
+        <translation>&apos; имеет неподключённую связь</translation>
     </message>
 </context>
 <context>
@@ -209,7 +209,7 @@
     <message>
         <location filename="../../qrutils/interpreter/block.cpp" line="+60"/>
         <source>Control flow break detected, stopping</source>
-        <translation>Обнаружен разрыв потока управления, исполнение завершено</translation>
+        <translation>Обнаружен разрыв потока управления, остановка</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -219,12 +219,12 @@
     <message>
         <location line="+5"/>
         <source>No outgoing links, please connect this block to something or use Final Node to end program</source>
-        <translation>Нет исходящих связей. Пожалуйста, подключите этот блок к чему-нибудь или используйте блок &quot;Конец&quot;, чтобы завершить выполнение программы</translation>
+        <translation>Нет исходящих связей. Подключите этот блок к чему-либо или используйте конечный узел для завершения программы</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="-27"/>
@@ -238,22 +238,22 @@
     <message>
         <location filename="../../qrutils/interpreter/interpreter.cpp" line="+55"/>
         <source>Interpreter is already running</source>
-        <translation>Программа уже запущена</translation>
+        <translation>Интерпретатор уже запущен</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Cannot create new thread with already occupied id %1</source>
-        <translation>Попытка создать задачу с уже занятым идентификатором %1</translation>
+        <translation>Невозможно создать новый поток с уже занятым идентификатором %1</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Threads limit exceeded. Maximum threads count is %1</source>
-        <translation>Превышено максимальное число возможных потоков (максимум %1 потоков)</translation>
+        <translation>Превышен лимит потоков. Максимальное количество потоков — %1</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Killing non-existent thread %1</source>
-        <translation>Попытка завершить несуществующую задачу %1</translation>
+        <translation>Попытка завершить несуществующий поток %1</translation>
     </message>
     <message>
         <source>Sending message to non-existent thread %1</source>
@@ -265,7 +265,7 @@
     <message>
         <location filename="../../qrutils/interpreter/thread.cpp" line="+117"/>
         <source>No entry point found, please add Initial Node to a diagram</source>
-        <translation>Не найдено начало программы. Пожалуйста, добавьте блок &quot;Начало&quot;</translation>
+        <translation>Точка входа не найдена. Добавьте начальный узел на диаграмму</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -283,7 +283,7 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/commentBlock.cpp" line="+28"/>
         <source>The comment block with incoming links detected!</source>
-        <translation>Блок &quot;Комментарий&quot; не может иметь входящих связей!</translation>
+        <translation>Обнаружен блок комментария с входящими связями!</translation>
     </message>
 </context>
 <context>
@@ -291,17 +291,17 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/forkBlock.cpp" line="+43"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Cannot create two threads with the same id %1</source>
-        <translation>Невозможно создать две задачи с одинаковыми идентификаторами %1</translation>
+        <translation>Невозможно создать два потока с одинаковым идентификатором %1</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>There must be a link that has its &apos;Guard&apos; property set to the current thread id %1</source>
-        <translation>Должна быть исходящая связь, помеченная идентификатором текущей задачи (%1)</translation>
+        <translation>Должна быть связь, у которой свойство &apos;Guard&apos; установлено в текущий идентификатор потока %1</translation>
     </message>
     <message>
         <source>There must be an outgoing link, use &quot;End&quot; block to finish a program</source>
@@ -318,27 +318,27 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/ifBlock.cpp" line="+36"/>
         <source>There must be exactly TWO links outgoing from if block</source>
-        <translation>От условного блока должно отходить ровно ДВЕ связи</translation>
+        <translation>Из блока if должно выходить ровно ДВЕ связи</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Two links marked with &apos;true&apos; found</source>
-        <translation>Обнаружено обе связи помечены условием &apos;Истина&apos;</translation>
+        <translation>Найдено две связи, помеченные как &apos;true&apos;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Two links marked with &apos;false&apos; found</source>
-        <translation>Обе связи помечены условием &apos;Ложь&apos;</translation>
+        <translation>Найдено две связи, помеченные как &apos;false&apos;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>There must be at least one link with &quot;true&quot; or &quot;false&quot; marker on it</source>
-        <translation>Должна быть как минимум одна связь с маркером &quot;истина&quot; или &quot;ложь&quot;</translation>
+        <translation>Должна быть хотя бы одна связь с маркером &quot;true&quot; или &quot;false&quot;</translation>
     </message>
     <message>
         <source>There must be a link with property &quot;Guard&quot; set to one of the conditions</source>
@@ -360,32 +360,32 @@
     <message>
         <location line="+29"/>
         <source>Only one link with &quot;%1&quot; is allowed</source>
-        <translation>Разрешается только одна связь вида &quot;%1&quot;</translation>
+        <translation>Разрешена только одна связь с маркером &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>One of the outgoing links must be marked with &quot;%1&quot;</source>
-        <translation>Одна из исходящих связей должны быть помечена как &quot;%1&quot;</translation>
+        <translation>Одна из исходящих связей должна быть помечена как &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Link to the next statement is missing</source>
-        <translation>Не указан следующий блок</translation>
+        <translation>Отсутствует связь со следующим оператором</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>No outgoing links, please connect this block to something or use Final Node to end program</source>
-        <translation>Нет исходящих связей. Пожалуйста, подключите этот блок к чему-нибудь или используйте блок &quot;Конец&quot;, чтобы завершить выполнение программы</translation>
+        <translation>Нет исходящих связей. Подключите этот блок к чему-либо или используйте конечный узел для завершения программы</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>There should be a maximum of TWO links outgoing from input block</source>
-        <translation>От блока ввода должно исходить не более ДВУХ связей</translation>
+        <translation>Из блока ввода должно выходить не более ДВУХ связей</translation>
     </message>
     <message>
         <location line="-63"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -409,7 +409,7 @@
     <message>
         <location line="+33"/>
         <source>You must input some value!</source>
-        <translation>Вы должны ввести какое-нибудь значение!</translation>
+        <translation>Вы должны ввести какое-либо значение!</translation>
     </message>
 </context>
 <context>
@@ -417,7 +417,7 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/joinBlock.cpp" line="+32"/>
         <source>Link outgoing from join block must have surviving thread id in its &apos;Guard&apos; property</source>
-        <translation>Связь, исходящая из блока &quot;Слияние задач&quot;, должна быть помечена идентификатором задачи, продолжающей работу после слияния</translation>
+        <translation>Исходящая связь из блока объединения должна содержать идентификатор выжившего потока в свойстве &apos;Guard&apos;</translation>
     </message>
 </context>
 <context>
@@ -425,7 +425,7 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/killThreadBlock.cpp" line="+24"/>
         <source>Need to specify a thread to be stopped</source>
-        <translation>Необходимо указать задачу, которая должна быть остановлена</translation>
+        <translation>Необходимо указать поток, который нужно остановить</translation>
     </message>
 </context>
 <context>
@@ -437,17 +437,17 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/loopBlock.cpp" line="+43"/>
         <source>There must be a link with &quot;body&quot; marker on it</source>
-        <translation>Из блока &quot;Цикл&quot; должна выходить стрелка с маркером &quot;тело цикла&quot;</translation>
+        <translation>Должна быть связь с маркером &quot;body&quot;</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Two links marked as &quot;body&quot; found</source>
-        <translation>Найдено две связи, помеченные как &quot;тело цикла&quot;</translation>
+        <translation>Найдено две связи, помеченные как &quot;body&quot;</translation>
     </message>
     <message>
         <source>Two links marked as &quot;iteration&quot; found</source>
@@ -456,7 +456,7 @@
     <message>
         <location line="+20"/>
         <source>There must be a non-marked outgoing link</source>
-        <translation>Должна быть непомеченная исходящая связь</translation>
+        <translation>Должна быть одна непомеченная исходящая связь</translation>
     </message>
 </context>
 <context>
@@ -464,23 +464,23 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/preconditionalLoopBlock.cpp" line="+41"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Two links marked as &quot;body&quot; found</source>
-        <translation>Найдено две связи, помеченные как &quot;тело цикла&quot;</translation>
+        <translation>Найдено две связи, помеченные как &quot;body&quot;</translation>
     </message>
     <message>
         <location line="+8"/>
         <location line="+7"/>
         <source>There must be a link with &quot;body&quot; marker on it</source>
-        <translation>Из блока &quot;Цикл&quot; должна выходить стрелка с маркером &quot;тело цикла&quot;</translation>
+        <translation>Должна быть связь с маркером &quot;body&quot;</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>There must be a non-marked outgoing link</source>
-        <translation>Должна быть непомеченная исходящая связь</translation>
+        <translation>Должна быть одна непомеченная исходящая связь</translation>
     </message>
 </context>
 <context>
@@ -496,7 +496,7 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/sendThreadMessageBlock.cpp" line="+23"/>
         <source>Need to specify a receiving thread in &apos;Thread&apos; property</source>
-        <translation>Необходимо указать задачу-получателя сообщения</translation>
+        <translation>Необходимо указать принимающий поток в свойстве &apos;Thread&apos;</translation>
     </message>
 </context>
 <context>
@@ -512,22 +512,22 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/switchBlock.cpp" line="+36"/>
         <source>There must be at list TWO links outgoing from switch block</source>
-        <translation>От блока выбора должно отходить минимум ДВЕ связи</translation>
+        <translation>Из блока switch должно выходить как минимум ДВЕ связи</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не подключена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>There must be exactly one link without marker on it (default branch)</source>
-        <translation>Ветка без маркера должна быть в точности одна (ветка &quot;default&quot;)</translation>
+        <translation>Должна быть ровно одна связь без маркера (ветвь по умолчанию)</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>There must be a link without marker on it (default branch)</source>
-        <translation>Должна быть связь без маркера (ветка &quot;default&quot;)</translation>
+        <translation>Должна быть связь без маркера (ветвь по умолчанию)</translation>
     </message>
     <message>
         <source>There must be exactly one link with empty &apos;Guard&apos; property (default branch).</source>
@@ -536,7 +536,7 @@
     <message>
         <location line="-9"/>
         <source>Duplicate case branch: &apos;%1&apos;</source>
-        <translation>Найдено более одной ветки &apos;%1&apos;</translation>
+        <translation>Повторяющаяся ветвь case: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>There must be a link with empty &apos;Guard&apos; property (default branch).</source>
@@ -548,7 +548,7 @@
     <message>
         <location filename="../../qrutils/interpreter/blocks/unsupportedBlock.cpp" line="+21"/>
         <source>Block of a type which is unsupported by an interpreter</source>
-        <translation>Блок типа, не поддерживаемого в интерпретаторе</translation>
+        <translation>Блок типа, который не поддерживается интерпретатором</translation>
     </message>
 </context>
 <context>
@@ -569,7 +569,7 @@
     <message>
         <location line="+35"/>
         <source>Select directory</source>
-        <translation>Выберите директорию</translation>
+        <translation>Выберите каталог</translation>
     </message>
 </context>
 <context>
@@ -587,7 +587,7 @@
     <message>
         <location line="+2"/>
         <source>Images (*.png *.svg *.jpg *.gif *.bmp);;All files (*.*)</source>
-        <translation>Картинки (*.png *.svg *.jpg *.gif *.bmp);;Все файлы (*.*)</translation>
+        <translation>Изображения (*.png *.svg *.jpg *.gif *.bmp);;Все файлы (*.*)</translation>
     </message>
 </context>
 <context>
@@ -615,7 +615,7 @@
     <message>
         <location line="+9"/>
         <source>Enter search text...</source>
-        <translation>Введите текст поиска...</translation>
+        <translation>Введите текст для поиска...</translation>
     </message>
 </context>
 <context>
@@ -624,7 +624,7 @@
         <location filename="../../qrutils/widgets/searchLinePanel.cpp" line="+134"/>
         <location line="+10"/>
         <source>Enter search text...</source>
-        <translation>Введите текст поиска...</translation>
+        <translation>Введите текст для поиска...</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -637,22 +637,22 @@
     <message>
         <location filename="../../qrutils/metamodelGeneratorSupport.cpp" line="+72"/>
         <source>Please, fill compiler settings</source>
-        <translation>Пожалуйста, заполните форму настроек копмилятора в настройках</translation>
+        <translation>Пожалуйста, заполните настройки компилятора</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Cannot unload plugin</source>
-        <translation>Не могу отгрузить плагин</translation>
+        <translation>Невозможно выгрузить плагин</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Cannot load new editor</source>
-        <translation>Не могу загрузить новый редактор</translation>
+        <translation>Невозможно загрузить новый редактор</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Cannot build new editor</source>
-        <translation>Не могу скомпилировать новый редактор. Проверьте имена элементов</translation>
+        <translation>Невозможно создать новый редактор</translation>
     </message>
 </context>
 <context>
@@ -660,7 +660,7 @@
     <message>
         <location filename="../../qrutils/widgets/qRealMessageBox.cpp" line="+30"/>
         <source>Ok</source>
-        <translation>Да</translation>
+        <translation>ОК</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -685,7 +685,7 @@
     <message>
         <location line="+1"/>
         <source>Discard</source>
-        <translation>Отменить</translation>
+        <translation>Отклонить</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -700,12 +700,12 @@
     <message>
         <location line="+1"/>
         <source>Help</source>
-        <translation>Помощь</translation>
+        <translation>Справка</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Save All</source>
-        <translation>Сохранить все</translation>
+        <translation>Сохранить всё</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -730,7 +730,7 @@
     <message>
         <location line="+1"/>
         <source>Abort</source>
-        <translation>Остановить</translation>
+        <translation>Прервать</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -745,7 +745,7 @@
     <message>
         <location line="+1"/>
         <source>NoButton</source>
-        <translation>Не кнопка</translation>
+        <translation>Нет кнопки</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -808,7 +808,7 @@
     <message>
         <location filename="../../qrutils/watchListWindow.ui" line="+41"/>
         <source>Watch List</source>
-        <translation>Переменные</translation>
+        <translation>Список наблюдения</translation>
     </message>
     <message>
         <location line="+59"/>

@@ -14,32 +14,32 @@
     <message>
         <location filename="../../../../../plugins/robots/common/nxtKit/src/communication/nxtUsbDriverInstaller.cpp" line="+54"/>
         <source>Driver for NXT is not installed. An attempt to attach TRIK Studio driver also failed (probably NXT tools package was not installer). No panic! Driver can still be installed manually, see documentation, chapter &quot;Installing NXT driver manually.&quot;. Also TRIK Studio supports &lt;a href=&apos;%1&apos;&gt;Lego Fantom driver&lt;/a&gt;, you can just download and install it.</source>
-        <translation>Драйвер для Lego NXT не установлен на компьютер. Попытка установить драйвера TRIK Studio также не удалась (возможно, пакет &quot;Инструменты NXT&quot; был отключен при установке). Без паники! Драйвер все еще может быть установлен вручную, см. документацию, раздер &quot;установка драйвера NXT вручную&quot;. Также TRIK Studio совместима с &lt;a href=&apos;%1&apos;&gt;драйвером Lego Fantom&lt;/a&gt;, Вы можете скачать и установить его.</translation>
+        <translation>Драйвер для NXT не установлен. Попытка подключить драйвер TRIK Studio также не удалась (возможно, пакет инструментов NXT не был установлен). Не паникуйте! Драйвер всё ещё можно установить вручную, см. документацию, главу «Установка драйвера NXT вручную». Кроме того, TRIK Studio поддерживает &lt;a href=&apos;%1&apos;&gt;драйвер Lego Fantom&lt;/a&gt;, вы можете просто загрузить и установить его.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Driver installation cancelled. Please note that TRIK Studio also supports official &lt;a href=&apos;%1&apos;&gt;Lego Fantom driver&lt;/a&gt;, you can just download and install it.</source>
-        <translation>Установка драйвера TRIK Studio отменета. Пожалуйста, имейте в виду, что TRIK Studio также поддерживает официальный &lt;a href=&apos;%1&apos;&gt;драйвер Lego Fantom&lt;/a&gt;, Вы можете скачать и установить его.</translation>
+        <translation>Установка драйвера отменена. Обратите внимание, что TRIK Studio также поддерживает официальный &lt;a href=&apos;%1&apos;&gt;драйвер Lego Fantom&lt;/a&gt;, вы можете просто загрузить и установить его.</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>An attempt to attach TRIK Studio driver failed. No panic! Driver can be still installed manually, see documentation, chapter &quot;Installing NXT driver manually.&quot;. Also TRIK Studio supports &lt;a href=&apos;%1&apos;&gt;Lego Fantom driver&lt;/a&gt;, you can just download and install it.</source>
-        <translation>Попытка установить драйвера TRIK Studio не удалась. Без паники! Драйвер все еще может быть установлен вручную, см. документацию, раздер &quot;установка драйвера NXT вручную&quot;. Также TRIK Studio совместима с &lt;a href=&apos;%1&apos;&gt;драйвером Lego Fantom&lt;/a&gt;, Вы можете скачать и установить его.</translation>
+        <translation>Попытка подключить драйвер TRIK Studio не удалась. Не паникуйте! Драйвер всё ещё можно установить вручную, см. документацию, главу «Установка драйвера NXT вручную». Кроме того, TRIK Studio поддерживает &lt;a href=&apos;%1&apos;&gt;драйвер Lego Fantom&lt;/a&gt;, вы можете просто загрузить и установить его.</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>NXT drivers not found</source>
-        <translation>Драйвер NXT не найден</translation>
+        <translation>Драйверы NXT не найдены</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Drivers for LEGO NXT brick are not installed. TRIK Studio can install own drivers to communicate with NXT. Do you want to do it?</source>
-        <translation>Драйвер для Lego NXT не установлен. TRIK Studio может попытаться установить свой драйвер для взаимодействия с NXT. Вы хотите продолжить?</translation>
+        <translation>Драйверы для LEGO NXT не установлены. TRIK Studio может установить собственные драйверы для связи с NXT. Хотите сделать это?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>TRIK Studio drivers are not officially registered, so two red warning messages will be shown by Windows. Confirm them to proceed installation.</source>
-        <translation>Драйвер TRIK Studio не зарегистрирован в Microsoft, поэтому сейчас Windows покажет два красных окна. Подтвердите в них согласие, чтобы продолжить установку.</translation>
+        <translation>Драйверы TRIK Studio не зарегистрированы официально, поэтому Windows покажет два предупреждения красного цвета. Подтвердите их, чтобы продолжить установку.</translation>
     </message>
 </context>
 <context>
@@ -47,33 +47,33 @@
     <message>
         <location filename="../../../../../plugins/robots/common/nxtKit/src/communication/usbRobotCommunicationThread.cpp" line="+169"/>
         <source>USB Device configuration problem. Try to restart TRIK Studio and re-plug NXT.</source>
-        <translation>Проблема конфигурации USB-устройства. Попробуйте перезапустить TRIK Studio и перевоткнуть NXT в компьютер.</translation>
+        <translation>Проблема с настройкой USB-устройства. Попробуйте перезапустить TRIK Studio и отключить, затем снова подключить NXT.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>NXT device is already used by another software.</source>
-        <translation>Устройство NXT уже чем-то используется. Попробуйте перезапустить среду и перевоткнуть NXT.</translation>
+        <translation>Устройство NXT уже используется другим программным обеспечением.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>NXT handshake procedure failed. Please contact developers.</source>
-        <translation>Процедура рукопожатия с NXT не была успешной. Пожалуйста, попробуйте еще раз, если эта ошибка снова появится, обратитесь к разработчикам.</translation>
+        <translation>Процедура рукопожатия с NXT не удалась. Пожалуйста, свяжитесь с разработчиками.</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Cannot find NXT device. Check robot connected and turned on and try again.</source>
-        <translation>Устройство NXT не найдено. Проверьте, что робот включен и подключен к компьютеру и попробуйте еще раз.</translation>
+        <translation>Не удается найти устройство NXT. Проверьте, подключен ли робот и включен ли он, затем попробуйте снова.</translation>
     </message>
     <message>
         <location line="+36"/>
         <location line="+19"/>
         <source>Connection to NXT lost</source>
-        <translation>Связь с NXT потеряна</translation>
+        <translation>Соединение с NXT потеряно</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Cannot find NXT device in resetted mode. Check robot resetted, connected and ticking and try again.</source>
-        <translation>Не могу найти устройство NXT в режиме перепрошивки. Проверьте, что прошивка робота стерта, робот подключен к компьютеру и издает повторяющиеся звуковые сигналы (тикает).</translation>
+        <translation>Не удается найти устройство NXT в режиме сброса. Убедитесь, что робот сброшен, подключен и издает звуковые сигналы, затем попробуйте снова.</translation>
     </message>
 </context>
 <context>

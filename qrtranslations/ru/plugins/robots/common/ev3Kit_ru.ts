@@ -32,7 +32,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/ev3Kit/src/communication/ev3RobotCommunicationThread.cpp" line="+55"/>
         <source>EV3 limits filename length to %1 characters, but you have %2, please, rename your project.</source>
-        <translation>EV3 не загружает файлы длиннее %1 символов. Длина имени Вашего файла %2 символов. Пожалуйста, сократите имя программы.</translation>
+        <translation>EV3 ограничивает длину имени файла до %1 символов, но у вас %2, переименуйте, пожалуйста, свой проект.</translation>
     </message>
 </context>
 <context>
@@ -40,7 +40,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/ev3Kit/src/communication/usbRobotCommunicationThread.cpp" line="+99"/>
         <source>Cannot find EV3 device. Check robot connected and turned on and try again.</source>
-        <translation>Не могу найти устройство EV3. Проверьте, что робот включен и присоединен и попробуйте снова.</translation>
+        <translation>Не удается найти устройство EV3. Проверьте, подключен ли робот и включен ли он, затем попробуйте снова.</translation>
     </message>
     <message>
         <source>USB device configuration problem. Please contact developers.</source>
@@ -95,7 +95,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/ev3Kit/include/ev3Kit/robotModel/parts/ev3Led.h" line="+53"/>
         <source>LED</source>
-        <translation>Диод</translation>
+        <translation>Светодиод</translation>
     </message>
 </context>
 <context>
@@ -135,7 +135,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/ev3Kit/include/ev3Kit/robotModel/parts/ev3NXTColorSensorV2Raw.h" line="+27"/>
         <source>NXT color sensor V2 (raw)</source>
-        <translation>Датчик цвета NXT V2 (raw)</translation>
+        <translation>Датчик цвета NXT V2 (сырой)</translation>
     </message>
 </context>
 </TS>

@@ -6,7 +6,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/nxtKitInterpreter/src/nxtAdditionalPreferences.ui" line="+14"/>
         <source>Form</source>
-        <translation>Настройки NXT</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>Type of Communication</source>
@@ -29,12 +29,12 @@
         <location line="+36"/>
         <location line="+7"/>
         <source>COM Port:</source>
-        <translation>COM-Порт:</translation>
+        <translation>Порт COM:</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>No COM ports found. If you have a Bluetooth connection with active virtual COM port, please enter its name. Example: COM3</source>
-        <translation>COM-порты не найдены. Если установлено Bluetooth-соединение с активным COM-портом, пожалуйста, укажите его имя. Пример: COM3</translation>
+        <translation>Порты COM не найдены. Если у вас есть подключение по Bluetooth с активным виртуальным портом COM, введите его имя. Пример: COM3</translation>
     </message>
     <message>
         <location line="-35"/>
@@ -49,7 +49,7 @@
     <message>
         <location line="+42"/>
         <source>Specify COM port manually</source>
-        <translation>Указать COM-порт вручную</translation>
+        <translation>Указать порт COM вручную</translation>
     </message>
 </context>
 <context>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/nxtKitInterpreter/src/nxtDisplayWidget.ui" line="+435"/>
         <source>tr(NxtDisplay)</source>
-        <translation>Дисплей NXT</translation>
+        <translation>tr(NxtDisplay)</translation>
     </message>
 </context>
 <context>
@@ -72,7 +72,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/nxtKitInterpreter/src/nxtAdditionalPreferences.cpp" line="+32"/>
         <source>2D robot image:</source>
-        <translation>Картинка робота в 2D:</translation>
+        <translation>Изображение робота в 2D:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -156,7 +156,7 @@ Open &lt;a href=&quot;https://help.trikset.com/nxt/run-upload-programs&quot;&gt;
     <message>
         <location filename="../../../../../plugins/robots/interpreters/nxtKitInterpreter/src/robotModel/real/parts/sonarSensor.h" line="+31"/>
         <source>Sonar sensor</source>
-        <translation>Сенсор расстояния</translation>
+        <translation>Сонарный датчик</translation>
     </message>
 </context>
 <context>

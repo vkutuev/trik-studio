@@ -6,33 +6,33 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/trik/trikQtsGeneratorLibrary/src/threadsValidator.cpp" line="+141"/>
         <source>Trying to join a thread with an unknown id. Possible causes: calling fork from a subprogram or trying to merge two threads without a join</source>
-        <translation>Попытка присоединиться к потоку с неизвестным идентификатором. Возможные причины: распараллеливание внутри подпрограммы или попытка склеить два потока без блока &quot;join&quot;</translation>
+        <translation>Попытка присоединить поток с неизвестным идентификатором. Возможные причины: вызов fork из подпрограммы или попытка объединить два потока без join</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Join block must have exactly one outgoing link</source>
-        <translation>Из блок соединения потоков должна выходить в точности одна связь</translation>
+        <translation>Блок join должен иметь ровно одну исходящую связь</translation>
     </message>
     <message>
         <location line="+6"/>
         <location line="+45"/>
         <source>Guard property of a link outgoing from a join must contain an id of one of joined threads</source>
-        <translation>На стрелке из блока соединения потоков должен быть идентификатор одного из склеиваемых потоков</translation>
+        <translation>Свойство условия перехода исходящей связи из join должно содержать идентификатор одного из объединённых потоков</translation>
     </message>
     <message>
         <location line="-38"/>
         <source>Joining threads in a loop is forbidden</source>
-        <translation>Соединение потоков в цикле запрещено</translation>
+        <translation>Объединение потоков в цикле запрещено</translation>
     </message>
     <message>
         <location line="+62"/>
         <source>Trying to fork from a thread with an unknown id. Possible causes: calling fork from a subprogram or trying to merge two threads without a join</source>
-        <translation>Попытка создать поток в потоке с неизвестным идентификатором. Возможные причины: создание нового потока в подпрограмме или попытка склеить два потока без блока Join</translation>
+        <translation>Попытка выполнить fork из потока с неизвестным идентификатором. Возможные причины: вызов fork из подпрограммы или попытка объединить два потока без join</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Fork block must have at least TWO outgoing links</source>
-        <translation>Блок &quot;Параллельные задачи&quot; должен иметь как минимум две исходящие связи</translation>
+        <translation>Блок fork должен иметь как минимум ДВЕ исходящие связи</translation>
     </message>
     <message>
         <source>All links outgoing from a fork block must have a thread id specified in a Guard property</source>
@@ -41,32 +41,32 @@
     <message>
         <location line="+29"/>
         <source>Links outgoing from a fork block must have different thread ids</source>
-        <translation>Идентификаторы на связях из блока &quot;Параллельные задачи&quot; должны быть различны</translation>
+        <translation>Исходящие связи из блока fork должны иметь разные идентификаторы потоков</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Fork block must have a link marked with an id of a thread from which the fork is called, &apos;%1&apos; in this case</source>
-        <translation>Из блока &quot;Параллельные задачи&quot; должна выходить связь с идентификатором текущего потока, в данном случае &quot;%1&quot;</translation>
+        <translation>Блок fork должен иметь связь, помеченную идентификатором потока, из которого вызывается fork, в данном случае &apos;%1&apos;</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Trying to create a thread with an already occupied id &apos;%1&apos;</source>
-        <translation>Попытка создать поток с уже занятым идентификатором &quot;%1&quot;</translation>
+        <translation>Попытка создать поток с уже занятым идентификатором &apos;%1&apos;</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Creation of threads in a cycle is forbidden, check for links to before a fork</source>
-        <translation>Создание потоков в цикле запрещено, проверьте связи, ведущие в блоки перед блоком &quot;Параллельные задачи&quot;</translation>
+        <translation>Создание потоков в цикле запрещено, проверьте наличие связей, ведущих до блока fork</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Outgoing link is not connected</source>
-        <translation>Исходящая связь ни к чему не присоединена</translation>
+        <translation>Исходящая связь не подключена</translation>
     </message>
     <message>
         <location filename="../../../../../../plugins/robots/generators/trik/trikQtsGeneratorLibrary/src/trikQtsControlFlowValidator.cpp" line="+37"/>
         <source>There is nothing to generate, diagram doesn&apos;t have Initial Node</source>
-        <translation>На диаграмме нет блока &quot;Начало&quot;</translation>
+        <translation>Нечего генерировать, диаграмма не содержит начального узла</translation>
     </message>
 </context>
 <context>
@@ -125,17 +125,17 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/trik/trikQtsGeneratorLibrary/src/trikQtsGeneratorPluginBase.cpp" line="+73"/>
         <source>Network operation timed out</source>
-        <translation>Не удалось получить ответ от робота, проверьте настройки, проверьте, включён ли робот</translation>
+        <translation>Истекло время сетевой операции</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Casing model mismatch, check TRIK Studio settings, &quot;Robots&quot; page. It seems that TRIK casing version selected in TRIK Studio differs from version on robot.</source>
-        <translation>Модель корпуса робота не совпадает с указанной в настройках. Проверьте окно настроек, вкладка &quot;Роботы&quot;, должна быть выбрана модель ТРИКа, соответствующая корпусу робота.</translation>
+        <translation>Несоответствие модели корпуса, проверьте настройки TRIK Studio, страницу &quot;Роботы&quot;. Похоже, версия корпуса TRIK, выбранная в TRIK Studio, отличается от версии на роботе.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Generate TRIK code</source>
-        <translation>Генерировать JavaScript код</translation>
+        <translation>Сгенерировать код TRIK</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -145,7 +145,7 @@
     <message>
         <location line="+7"/>
         <source>Run program</source>
-        <translation>Загрузить и выполнить программу</translation>
+        <translation>Запустить программу</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -155,27 +155,27 @@
     <message>
         <location line="+16"/>
         <source>Generate TRIK Code</source>
-        <translation>Сгенерировать JavaScript код для TRIK</translation>
+        <translation>Сгенерировать код TRIK</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Upload TRIK Program</source>
-        <translation>Загрузить программу</translation>
+        <translation>Загрузить программу TRIK</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run TRIK Program</source>
-        <translation>Исполнить программу</translation>
+        <translation>Запустить программу TRIK</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop TRIK Robot</source>
-        <translation>Остановить выполнение программы для TRIK</translation>
+        <translation>Остановить робота TRIK</translation>
     </message>
     <message>
         <location line="+72"/>
         <source>There are no files to upload. You must open or generate at least one *.js or *.py file.</source>
-        <translation>Нет файлов для загрузки. Вы должны открыть или сгенерировать хотя бы один *.js или *.py файл.</translation>
+        <translation>Нет файлов для загрузки. Вы должны открыть или сгенерировать хотя бы один файл *.js или *.py.</translation>
     </message>
     <message>
         <source>No connection to robot</source>

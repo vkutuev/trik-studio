@@ -6,7 +6,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/nullKitInterpreter/src/nullKitInterpreterPlugin.cpp" line="+33"/>
         <source>Empty Kit</source>
-        <translation>Пустая модель</translation>
+        <translation>Пустой комплект</translation>
     </message>
 </context>
 <context>
@@ -14,7 +14,7 @@
     <message>
         <location filename="../../../../../plugins/robots/interpreters/nullKitInterpreter/src/nullRobotModel.cpp" line="+31"/>
         <source>Null model</source>
-        <translation>Пустая модель</translation>
+        <translation>Нулевая модель</translation>
     </message>
 </context>
 </TS>

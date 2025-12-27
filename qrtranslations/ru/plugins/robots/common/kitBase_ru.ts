@@ -6,7 +6,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/blocksBase/common/deviceBlock.h" line="+47"/>
         <source>%1 is not configured.</source>
-        <translation>%1 не сконфигурирован.</translation>
+        <translation>%1 не настроен.</translation>
     </message>
 </context>
 <context>
@@ -32,7 +32,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/src/blocksBase/common/waitForButtonBlock.cpp" line="+37"/>
         <source>Incorrect button port %1</source>
-        <translation>Неправильная кнопка %1</translation>
+        <translation>Неправильный порт кнопки %1</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/src/blocksBase/common/waitForSensorBlock.cpp" line="+46"/>
         <source>%1 is not configured on port %2</source>
-        <translation>%1 не сконфигурирован на порту %2</translation>
+        <translation>%1 не настроен на порту %2</translation>
     </message>
 </context>
 <context>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/colorSensorAmbient.h" line="+29"/>
         <source>EV3 color sensor (ambient)</source>
-        <translation>Датчик цвета EV3 (рассеянный)</translation>
+        <translation>Датчик цвета EV3 (освещённость)</translation>
     </message>
 </context>
 <context>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/colorSensorFull.h" line="+33"/>
         <source>NXT / EV3 color sensor (full)</source>
-        <translation>Датчик цвета EV3 / NXT (цвет)</translation>
+        <translation>Датчик цвета NXT / EV3 (полный)</translation>
     </message>
 </context>
 <context>
@@ -123,7 +123,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/colorSensorGreen.h" line="+30"/>
         <source>NXT color sensor (green)</source>
-        <translation>Датчик цвета NXT (зеленый)</translation>
+        <translation>Датчик цвета NXT (зелёный)</translation>
     </message>
 </context>
 <context>
@@ -155,7 +155,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/colorSensorReflected.h" line="+29"/>
         <source>EV3 color sensor (reflected)</source>
-        <translation>Датчик цвета EV3 (отраженный)</translation>
+        <translation>Датчик цвета EV3 (отражённый)</translation>
     </message>
 </context>
 <context>
@@ -187,7 +187,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/gyroscopeSensor.h" line="+29"/>
         <source>Gyroscope</source>
-        <translation>Гиродатчик</translation>
+        <translation>Гироскоп</translation>
     </message>
 </context>
 <context>
@@ -203,7 +203,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/lightSensor.h" line="+29"/>
         <source>Light sensor</source>
-        <translation>Датчик света</translation>
+        <translation>Датчик освещённости</translation>
     </message>
 </context>
 <context>
@@ -243,7 +243,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/kitBase/include/kitBase/robotModel/robotParts/shell.h" line="+28"/>
         <source>Shell</source>
-        <translation>Консоль</translation>
+        <translation>Оболочка</translation>
     </message>
 </context>
 <context>

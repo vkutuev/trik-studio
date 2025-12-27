@@ -14,7 +14,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/src/blocks/details/waitGamepadButtonBlock.cpp" line="+41"/>
         <source>Incorrect port for gamepad button %1</source>
-        <translation>Неверная кнопка Android-пульта %1</translation>
+        <translation>Неправильный порт для кнопки геймпада %1</translation>
     </message>
 </context>
 <context>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikColorSensor.h" line="+29"/>
         <source>Color Sensor</source>
-        <translation>Сенсор цвета</translation>
+        <translation>Датчик цвета</translation>
     </message>
 </context>
 <context>
@@ -44,7 +44,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikGamepadButton.h" line="+28"/>
         <source>Android Gamepad Button</source>
-        <translation>Кнопка Android-пульта</translation>
+        <translation>Кнопка геймпада Android</translation>
     </message>
 </context>
 <context>
@@ -52,7 +52,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikGamepadConnectionIndicator.h" line="+28"/>
         <source>Android Gamepad Connection Indicator</source>
-        <translation>Индикатор подключения Android-пульта</translation>
+        <translation>Индикатор подключения геймпада Android</translation>
     </message>
 </context>
 <context>
@@ -60,7 +60,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikGamepadPad.h" line="+29"/>
         <source>Android Gamepad Pad</source>
-        <translation>Активная область Android-пульта</translation>
+        <translation>Джойстик геймпада Android</translation>
     </message>
 </context>
 <context>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikGamepadPadPressSensor.h" line="+28"/>
         <source>Android Gamepad Pad as Button</source>
-        <translation>Активная область Android-пульта как кнопка</translation>
+        <translation>Джойстик геймпада Android как кнопка</translation>
     </message>
 </context>
 <context>
@@ -76,7 +76,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikGamepadWheel.h" line="+29"/>
         <source>Android Gamepad Wheel</source>
-        <translation>&quot;Руль&quot; Android-пульта</translation>
+        <translation>Колесо геймпада Android</translation>
     </message>
 </context>
 <context>
@@ -84,7 +84,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikInfraredSensor.h" line="+27"/>
         <source>Infrared Sensor</source>
-        <translation>Датчик расстояния ИК</translation>
+        <translation>Инфракрасный датчик</translation>
     </message>
 </context>
 <context>
@@ -108,7 +108,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikLineSensor.h" line="+28"/>
         <source>Line Sensor</source>
-        <translation>Сенсор линии</translation>
+        <translation>Датчик линии</translation>
     </message>
 </context>
 <context>
@@ -116,7 +116,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikMotionSensor.h" line="+27"/>
         <source>Motion Sensor</source>
-        <translation>Сенсор движения</translation>
+        <translation>Датчик движения</translation>
     </message>
 </context>
 <context>
@@ -132,7 +132,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikObjectSensor.h" line="+28"/>
         <source>Object Sensor</source>
-        <translation>Сенсор объекта</translation>
+        <translation>Датчик объекта</translation>
     </message>
 </context>
 <context>
@@ -148,7 +148,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikServoMotor.h" line="+27"/>
         <source>Servo Motor</source>
-        <translation>Сервомотор</translation>
+        <translation>Сервопривод</translation>
     </message>
 </context>
 <context>
@@ -156,7 +156,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/trikKit/include/trikKit/robotModel/parts/trikSonarSensor.h" line="+27"/>
         <source>Sonic Sensor</source>
-        <translation>Датчик расстояния УЗ</translation>
+        <translation>Ультразвуковой датчик</translation>
     </message>
 </context>
 <context>

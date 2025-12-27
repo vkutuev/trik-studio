@@ -11,7 +11,7 @@
     <message>
         <location line="+8"/>
         <source>Firmware file not found in nxt-tools directory.</source>
-        <translation>Файл с прошивкой не найден в директории с инструментами NXT.</translation>
+        <translation>Файл прошивки не найден в каталоге nxt-tools.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -21,7 +21,7 @@
     <message>
         <location line="+10"/>
         <source>Firmware flash started. Please don&apos;t disconnect robot during the process</source>
-        <translation>Начат процесс загрузки прошивки в робота. Пожалуйста, не отсоединяйте робота, пока процесс не будет завершен</translation>
+        <translation>Начата прошивка. Пожалуйста, не отключайте робота во время процесса</translation>
     </message>
     <message>
         <source>Some error occured. Make sure you are running QReal with superuser privileges</source>
@@ -42,12 +42,12 @@
     <message>
         <location line="+107"/>
         <source>The program has been uploaded</source>
-        <translation>Загрузка завершена</translation>
+        <translation>Программа была загружена</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to run it?</source>
-        <translation>Хотите ли Вы запустить эту программу?</translation>
+        <translation>Вы хотите запустить её?</translation>
     </message>
     <message>
         <source>NXT not found. Check USB connection and make sure the robot is ON</source>
@@ -64,22 +64,22 @@
     <message>
         <location line="+6"/>
         <source>Uploading is already running</source>
-        <translation>Программа уже загружается</translation>
+        <translation>Загрузка уже выполняется</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Uploading program started. Please don&apos;t disconnect robot during the process</source>
-        <translation>Начат процесс загрузки программы в робота. Пожалуйста, не отсоединяйте робота, пока процесс не будет завершен</translation>
+        <translation>Начата загрузка программы. Пожалуйста, не отключайте робота во время процесса</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Uploading failed. Make sure that X-server allows root to run GUI applications</source>
-        <translation>Не удалось загрузить программу в робота. Убедитесь, что TRIKStusio запущена с нужными правами</translation>
+        <translation>Загрузка не удалась. Убедитесь, что X-сервер разрешает root-пользователю запуск графических приложений</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Could not upload program. Make sure the robot is connected and ON</source>
-        <translation>Не удалось загрузить программу в робота. Убедитесь, что робот включен и подсоединен к компьютеру</translation>
+        <translation>Не удалось загрузить программу. Убедитесь, что робот подключён и включён</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -89,77 +89,77 @@
     <message>
         <location line="+41"/>
         <source>Error in reading from firmware file: %1</source>
-        <translation>Ошибка чтения из файла с прошивкой %1</translation>
+        <translation>Ошибка при чтении из файла прошивки: %1</translation>
     </message>
     <message>
         <location line="+223"/>
         <source>Could not find %1. Check your program was compiled and try again.</source>
-        <translation>Не могу найти %1. Проверьте, что программа скомпилировалась, путь до нее не содержит пробелов и русских букв и попробуйте еще раз.</translation>
+        <translation>Не удалось найти %1. Убедитесь, что ваша программа скомпилирована, и попробуйте снова.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Could not delete old file. Make sure the robot is connected, turned on.</source>
-        <translation>Не могу удалить старый файл с робота. Пожалуйста, проверьте, что робот включен и подключен к компьютера и попробуйте еще раз.</translation>
+        <translation>Не удалось удалить старый файл. Убедитесь, что робот подключён и включён.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Could not upload program. Make sure the robot is connected, turned on and has enough free memory.</source>
-        <translation>Попытка загрузки программы не удалась. Проверьте, что робот включен, подключен к компьютеру и имеет достаточно свободной памяти.</translation>
+        <translation>Не удалось загрузить программу. Убедитесь, что робот подключён, включён и имеет достаточно свободной памяти.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Could not close file on brick. Probably connection to NXT lost at the last stage of uploading</source>
-        <translation>Не могу закрыть файл на роботе после записи данных в него. Возможно, связь с NXT была потеряна на самом последнем шагу загрузки</translation>
+        <translation>Не удалось закрыть файл на кирпиче. Возможно, соединение с NXT было потеряно на последнем этапе загрузки</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Uploading completed successfully</source>
-        <translation>Загрузка программы завершена успешно</translation>
+        <translation>Загрузка успешно завершена</translation>
     </message>
     <message>
         <location line="-303"/>
         <source>Compilation error occured. Please check your function blocks syntax. If you sure in their validness contact developers</source>
-        <translation>Произошла ошибка компиляции. Проверьте синтаксис выражений внутри блоков &quot;Функция&quot;;. Если Вы уверены в их корректности, обратитесь к разработчикам</translation>
+        <translation>Произошла ошибка компиляции. Пожалуйста, проверьте синтаксис ваших функциональных блоков. Если вы уверены в их корректности, свяжитесь с разработчиками</translation>
     </message>
     <message>
         <location line="-186"/>
         <source>Could not open %1 for reading.</source>
-        <translation>Не могу открыть файл %1 для чтения.</translation>
+        <translation>Не удалось открыть %1 для чтения.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Firmware file is too large to fit into NXT brick memory.</source>
-        <translation>Файл с прошивкой слишком велик для памяти NXT.</translation>
+        <translation>Файл прошивки слишком велик для памяти NXT.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not write firmware into NXT memory.</source>
-        <translation>Попытка записи прошивки в память NXT не удалась.</translation>
+        <translation>Не удалось записать прошивку в память NXT.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Firmware successfully flashed into robot, but starting it failed.</source>
-        <translation>Прошивка была успешно записана в память робота, но ее запуск не удался. Попробуйте перезагрузить робота.</translation>
+        <translation>Прошивка успешно записана в робота, но её запуск не удался.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Flashing process completed successfully.</source>
-        <translation>Процесс прошивки робота успешно завершен.</translation>
+        <translation>Процесс прошивки успешно завершён.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Flashing NXT brick...</source>
-        <translation>Прошиваю робота...</translation>
+        <translation>Прошивка кирпича NXT...</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>You need to have superuser privileges to flash NXT robot</source>
-        <translation>Загрузка программы не удалась. Возможно, стоит попробовать перезапустить среду с правами суперпользователя</translation>
+        <translation>Вам нужны права суперпользователя для прошивки робота NXT</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>QReal requires superuser privileges to upload programs on NXT robot</source>
-        <translation>Для загрузки программ в робота требуется запустить TRIKStudio с правами администратора</translation>
+        <translation>QReal требует прав суперпользователя для загрузки программ на робота NXT</translation>
     </message>
 </context>
 <context>
@@ -171,23 +171,23 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/nxt/nxtOsekCGenerator/nxtOsekCGeneratorPlugin.cpp" line="+32"/>
         <source>Generation (NXT OSEK C)</source>
-        <translation>Генерация (C)</translation>
+        <translation>Генерация (NXT OSEK C)</translation>
     </message>
     <message>
         <location line="+57"/>
         <location line="+131"/>
         <source>NXT tools package is not installed</source>
-        <translation>Пакет &quot;Инструменты NXT&quot; не установлен</translation>
+        <translation>Пакет инструментов NXT не установлен</translation>
     </message>
     <message>
         <location line="-85"/>
         <source>Generate code</source>
-        <translation>Генерировать код</translation>
+        <translation>Сгенерировать код</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Flash robot</source>
-        <translation>Прошить</translation>
+        <translation>Прошить робота</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -207,7 +207,7 @@
     <message>
         <location line="+53"/>
         <source>flash.sh not found. Make sure it is present in QReal installation directory</source>
-        <translation>Не найден скрипт flash.sh. Убедитесь, что пакет nxt-tools установлен корректно</translation>
+        <translation>Файл flash.sh не найден. Убедитесь, что он присутствует в каталоге установки QReal</translation>
     </message>
     <message>
         <source>upload.sh not found. Make sure it is present in QReal installation directory</source>

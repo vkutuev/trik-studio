@@ -112,7 +112,7 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/trik/trikV62QtsGenerator/trikV62QtsGeneratorPlugin.cpp" line="+29"/>
         <source>Generation (Java Script)</source>
-        <translation>Генерация (JavaScript)</translation>
+        <translation>Генерация (Java Script)</translation>
     </message>
 </context>
 </TS>

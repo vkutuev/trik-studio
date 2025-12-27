@@ -6,18 +6,18 @@
     <message>
         <location filename="../../../../plugins/robots/utils/src/robotCommunication/networkCommunicationErrorReporter.cpp" line="+27"/>
         <source>Current TRIK runtime version can not be received</source>
-        <translation>Не удаётся получить текущую версию прошивки ТРИК</translation>
+        <translation>Не удается получить текущую версию среды выполнения TRIK</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>TRIK runtime version is too old, please update it by pressing &apos;Upload Runtime&apos; button on toolbar</source>
-        <translation>ПО робота устарело, обновите его, нажав на кнопку &quot;Загрузить ПО на робот&quot; на панели инструментов</translation>
+        <translation>Версия среды выполнения TRIK устарела, обновите её, нажав кнопку &apos;Загрузить среду выполнения&apos; на панели инструментов</translation>
     </message>
     <message>
         <location line="+6"/>
         <location line="+5"/>
         <source>From robot: </source>
-        <translation>На роботе: </translation>
+        <translation>От робота: </translation>
     </message>
 </context>
 <context>
@@ -25,7 +25,7 @@
     <message>
         <location filename="../../../../plugins/robots/utils/src/graphicsWatcher/sensorsGraph.ui" line="+25"/>
         <source>SensorsGraph</source>
-        <translation>Сенсоры</translation>
+        <translation>График датчиков</translation>
     </message>
     <message>
         <source>Stop tracking</source>
@@ -98,18 +98,18 @@
     <message>
         <location filename="../../../../plugins/robots/utils/src/uploaderTool.cpp" line="+131"/>
         <source>WinSCP process failed to launch, check path in settings.</source>
-        <translation>Не удалось запустить WinSCP, проверьте, что папка winscp есть в папке с TRIK Studio и в ней есть WinSCP.exe.</translation>
+        <translation>Не удалось запустить процесс WinSCP, проверьте путь в настройках.</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+15"/>
         <source>Uploading failed, check connection and try again.</source>
-        <translation>Загрузка ПО не удалась, проверьте соединение и попробуйте еще раз.</translation>
+        <translation>Загрузка не удалась, проверьте соединение и попробуйте снова.</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Uploaded successfully!</source>
-        <translation>Загрузка успешно завершена!</translation>
+        <translation>Загружено успешно!</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -145,12 +145,12 @@
     <message>
         <location filename="../../../../plugins/robots/utils/src/robotCommunication/tcpRobotCommunicator.cpp" line="+81"/>
         <source>Empty program name, can not upload</source>
-        <translation>Пустое имя программы, загрузка на робот невозможна</translation>
+        <translation>Пустое имя программы, загрузка невозможна</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Can not read generated file, uploading aborted</source>
-        <translation>Невозможно прочитать сгенерированный файл, загрузка отменена</translation>
+        <translation>Не удается прочитать сгенерированный файл, загрузка прервана</translation>
     </message>
 </context>
 <context>
@@ -158,12 +158,12 @@
     <message>
         <location filename="../../../../plugins/robots/utils/src/robotCommunication/tcpRobotCommunicatorWorker.cpp" line="+232"/>
         <source>Unable to resolve host.</source>
-        <translation>Указанное имя робота неизвестно.</translation>
+        <translation>Не удалось определить адрес хоста.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Connection failed. IP: %1</source>
-        <translation>Не удалось установить соединение с роботом. IP адрес: %1</translation>
+        <translation>Подключение не удалось. IP: %1</translation>
     </message>
     <message>
         <source>Connection failed</source>
@@ -175,7 +175,7 @@
     <message>
         <location filename="../../../../plugins/robots/utils/src/graphicsWatcher/sensorViewer.cpp" line="+109"/>
         <source>Save values history</source>
-        <translation>Сохранить значения</translation>
+        <translation>Сохранить историю значений</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -203,7 +203,7 @@
     <message>
         <location line="+4"/>
         <source>Reset plot</source>
-        <translation>Очистить график</translation>
+        <translation>Сбросить график</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -218,7 +218,7 @@
     <message>
         <location line="+4"/>
         <source>Export values...</source>
-        <translation>Экспорт показаний...</translation>
+        <translation>Экспортировать значения...</translation>
     </message>
 </context>
 </TS>

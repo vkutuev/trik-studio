@@ -204,27 +204,27 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/constraints/details/constraintsParser.cpp" line="+60"/>
         <source>Root element must be &quot;constraints&quot; tag</source>
-        <translation>Корневой элемент должен быть тэгом &quot;constraints&quot;</translation>
+        <translation>Корневой элемент должен быть тегом &quot;constraints&quot;</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>There must be a &quot;timelimit&quot; constraint.</source>
-        <translation>Должен иметься тэг &quot;timelimit&quot;.</translation>
+        <translation>Должно присутствовать ограничение &quot;timelimit&quot;.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>There must be only one &quot;timelimit&quot; tag.</source>
-        <translation>Тэг &quot;timelimit&quot; может быть только один.</translation>
+        <translation>Должен быть только один тег &quot;timelimit&quot;.</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Event tag must have &quot;condition&quot; or &quot;conditions&quot; child tag. &quot;%1&quot; found instead.</source>
-        <translation>Тег &quot;event&quot; должен иметь дочерний тэг &quot;condition&quot; или &quot;conditions&quot;. Вместо этого найдено &quot;%1&quot;.</translation>
+        <translation>Тег события должен содержать дочерний тег &quot;condition&quot; или &quot;conditions&quot;. Вместо этого найдено: &quot;%1&quot;.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Event tag must have &quot;trigger&quot; or &quot;triggers&quot; child tag. &quot;%1&quot; found instead.</source>
-        <translation>Тег &quot;event&quot; должен иметь дочерний тэг &quot;trigger&quot; или &quot;triggers&quot;. Вместо этого найдено &quot;%1&quot;.</translation>
+        <translation>Тег события должен содержать дочерний тег &quot;trigger&quot; или &quot;triggers&quot;. Вместо этого найдено: &quot;%1&quot;.</translation>
     </message>
     <message>
         <location line="+66"/>
@@ -234,23 +234,23 @@
     <message>
         <location line="+43"/>
         <source>&quot;Glue&quot; attribute must have value &quot;and&quot; or &quot;or&quot;.</source>
-        <translation>Аттрибут &quot;glue&quot; должен иметь значение &quot;and&quot; или &quot;or&quot;.</translation>
+        <translation>Атрибут &quot;Glue&quot; должен иметь значение &quot;and&quot; или &quot;or&quot;.</translation>
     </message>
     <message>
         <location line="+59"/>
         <location line="+183"/>
         <source>Unknown tag &quot;%1&quot;.</source>
-        <translation>Неизвестный тэг &quot;%1&quot;.</translation>
+        <translation>Неизвестный тег &quot;%1&quot;.</translation>
     </message>
     <message>
         <location line="-87"/>
         <source>There must be only one tag &quot;return&quot; in &quot;using&quot; expression.</source>
-        <translation>Тэг &quot;return&quot; может быть только один.</translation>
+        <translation>В выражении &quot;using&quot; должен быть только один тег &quot;return&quot;.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>There must be &quot;return&quot; tag in &quot;using&quot; expression.</source>
-        <translation>В выражении &quot;using&quot; должен иметься тэг &quot;return&quot;.</translation>
+        <translation>В выражении &quot;using&quot; должен присутствовать тег &quot;return&quot;.</translation>
     </message>
     <message>
         <location line="+266"/>
@@ -260,62 +260,62 @@
     <message>
         <location line="+81"/>
         <source>Invalid integer value &quot;%1&quot;</source>
-        <translation>&quot;%1&quot; - не целое число</translation>
+        <translation>Недопустимое целочисленное значение &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Invalid floating point value &quot;%1&quot;</source>
-        <translation>&quot;%1&quot; - не число</translation>
+        <translation>Недопустимое значение с плавающей точкой &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Invalid boolean value &quot;%1&quot; (expected &quot;true&quot; or &quot;false&quot;)</source>
-        <translation>&quot;%1&quot; - не логическое значение (ожидалось &quot;true&quot; или &quot;false&quot;)</translation>
+        <translation>Недопустимое логическое значение &quot;%1&quot; (ожидалось &quot;true&quot; или &quot;false&quot;)</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Duplicate id: &quot;%1&quot;</source>
-        <translation>Переобъявление события &quot;%1&quot;</translation>
+        <translation>Повторяющийся идентификатор: &quot;%1&quot;</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>%1 tag must have exactly %2 child tag(s)</source>
-        <translation>У тэга &quot;%1&quot; должно быть ровно %2 дочерних(ий) тэг(а)</translation>
+        <translation>Тег %1 должен содержать ровно %2 дочерний(х) тег(ов)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>%1 tag must have at least %2 child tag(s)</source>
-        <translation>У тэга &quot;%1&quot; должно быть как минимум %2 дочерних(ий) тэг(а)</translation>
+        <translation>Тег %1 должен содержать не менее %2 дочернего(х) тег(ов)</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&quot;%1&quot; tag must have &quot;%2&quot; attribute.</source>
-        <translation>У тэга &quot;%1&quot; должен быть аттрибут &quot;%2&quot;.</translation>
+        <translation>Тег &quot;%1&quot; должен иметь атрибут &quot;%2&quot;.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Expected &quot;%1&quot; tag, got &quot;%2&quot;.</source>
-        <translation>Ожидался тэг &quot;%1&quot;, найден - &quot;%2&quot;.</translation>
+        <translation>Ожидался тег &quot;%1&quot;, получен &quot;%2&quot;.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Attribute &quot;%1&quot; of the tag &quot;%2&quot; must not be empty.</source>
-        <translation>Атрибут &quot;%1&quot; тэга &quot;%2&quot; не может быть пустым.</translation>
+        <translation>Атрибут &quot;%1&quot; тега &quot;%2&quot; не должен быть пустым.</translation>
     </message>
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/constraints/details/conditionsFactory.cpp" line="+105"/>
         <source>No such region: %1</source>
-        <translation>Нет такого региона: %1</translation>
+        <translation>Нет такой области: %1</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>%1 is not a region</source>
-        <translation>%1 - не регион</translation>
+        <translation>%1 не является областью</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>%1 has incorrect type for matching it with region</source>
-        <translation>%1 не сопоставить с регионом (не тот тип)</translation>
+        <translation>%1 имеет неправильный тип для сопоставления с областью</translation>
     </message>
     <message>
         <source>%1 has incorrect type for mathing it with region</source>
@@ -342,12 +342,12 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/constraints/details/valuesFactory.cpp" line="-38"/>
         <source>Requesting variable value with empty name</source>
-        <translation>Запрашивается переменная с пустым именем</translation>
+        <translation>Запрос значения переменной с пустым именем</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Object path is empty!</source>
-        <translation>Путь до объекта пуст!</translation>
+        <translation>Путь к объекту пуст!</translation>
     </message>
     <message>
         <location line="+126"/>
@@ -357,7 +357,7 @@
     <message>
         <location line="+5"/>
         <source>Object &quot;%1&quot; has no property &quot;%2&quot;</source>
-        <translation>У объекта &quot;%1&quot; нет свойства &quot;%2&quot;</translation>
+        <translation>Объект &quot;%1&quot; не имеет свойства &quot;%2&quot;</translation>
     </message>
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/parts/speedPopup.cpp" line="+25"/>
@@ -367,7 +367,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/constraints/details/triggersFactory.cpp" line="-30"/>
         <source>Invalid &lt;setState&gt; object type %1</source>
-        <translation>Неверный тип объекта %1 в элементе &lt;setState&gt;</translation>
+        <translation>Недопустимый тип объекта &lt;setState&gt;: %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -400,7 +400,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/twoDModelWidget.ui" line="+14"/>
         <source>2D Robot Model</source>
-        <translation>Двумерная модель</translation>
+        <translation>2D-модель робота</translation>
     </message>
     <message>
         <source>Run program (Enter)</source>
@@ -445,7 +445,7 @@
     <message>
         <location line="+41"/>
         <source>Time in 2D model</source>
-        <translation>Время в 2D модели</translation>
+        <translation>Время в 2D-модели</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -475,12 +475,12 @@
     <message>
         <location line="+31"/>
         <source>Metric system units:</source>
-        <translation>Единицы измерения</translation>
+        <translation>Единицы метрической системы:</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Pixels in cm:</source>
-        <translation>Кол-во пикселей в см</translation>
+        <translation>Пикселей в см:</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -490,12 +490,12 @@
     <message>
         <location line="+7"/>
         <source>Realistic sensors</source>
-        <translation>Реалистичные сенсоры</translation>
+        <translation>Реалистичные датчики</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Realistic engines</source>
-        <translation>Реалистичные моторы</translation>
+        <translation>Реалистичные двигатели</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -590,12 +590,12 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/constraints/constraintsChecker.cpp" line="+118"/>
         <source>Error while parsing constraints: %1</source>
-        <translation>Ошибка чтения ограничений: %1</translation>
+        <translation>Ошибка при разборе ограничений: %1</translation>
     </message>
     <message>
         <location line="+191"/>
         <source>Program has finished, but the task is not accomplished.</source>
-        <translation>Программа отработала, но задание не выполнено.</translation>
+        <translation>Программа завершена, но задача не выполнена.</translation>
     </message>
 </context>
 <context>
@@ -603,7 +603,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/twoDModelEngineFacade.cpp" line="+196"/>
         <source>Realistic physics&apos; must be turned on to enjoy skittles, cubes and balls</source>
-        <translation>Реалистичная физика должна быть включена для взаимодействия с кеглями, кубами и мячами</translation>
+        <translation>Необходимо включить реалистичную физику, чтобы использовать кегли, кубики и шары</translation>
     </message>
 </context>
 <context>
@@ -611,7 +611,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/items/ballItem.cpp" line="+57"/>
         <source>Ball (B)</source>
-        <translation>Мяч (B)</translation>
+        <translation>Шар (B)</translation>
     </message>
 </context>
 <context>
@@ -619,7 +619,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/items/commentItem.cpp" line="-141"/>
         <source>Text (T)</source>
-        <translation>Текст (Т)</translation>
+        <translation>Текст (T)</translation>
     </message>
 </context>
 <context>
@@ -655,7 +655,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/items/imageItem.cpp" line="+80"/>
         <source>Image (I)</source>
-        <translation>Картинка (I)</translation>
+        <translation>Изображение (I)</translation>
     </message>
 </context>
 <context>
@@ -703,12 +703,12 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/model/model.cpp" line="+69"/>
         <source>The task was accomplished in %1 sec!</source>
-        <translation>Задание выполнено за %1 сек!</translation>
+        <translation>Задача выполнена за %1 сек!</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Error in checker: %1</source>
-        <translation>Ошибка в проверяющей программе: %1</translation>
+        <translation>Ошибка в проверяющем модуле: %1</translation>
     </message>
     <message>
         <location line="+75"/>
@@ -718,12 +718,12 @@
     <message>
         <location line="+7"/>
         <source>The world model has version %1. The current version is %2. Please check that the world model behaves as expected.</source>
-        <translation>Модель мира имеет версию %1. Текущая версия %2. Пожалуйста, убедитесь, что модель мира ведет себя ожидаемым образом.</translation>
+        <translation>Модель мира имеет версию %1. Текущая версия — %2. Пожалуйста, убедитесь, что модель мира работает как ожидается.</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>This robot model already exists</source>
-        <translation>Эта модель робота уже существует</translation>
+        <translation>Такая модель робота уже существует</translation>
     </message>
 </context>
 <context>
@@ -780,7 +780,7 @@
         <location line="+43"/>
         <location line="+19"/>
         <source>Trying to add an item with a duplicate id: %1</source>
-        <translation>Попытка добавить элемент с существующим идентификатором: %1</translation>
+        <translation>Попытка добавить элемент с повторяющимся идентификатором: %1</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -799,7 +799,7 @@
         <location filename="../../../../../plugins/robots/common/twoDModel/src/robotModel/twoDRobotModel.cpp" line="+74"/>
         <location line="+3"/>
         <source>2D Model</source>
-        <translation>2D модель</translation>
+        <translation>2D-модель</translation>
     </message>
 </context>
 <context>
@@ -807,7 +807,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorAmbient.h" line="+33"/>
         <source>EV3 color sensor (ambient)</source>
-        <translation>Датчик цвета EV3 (рассеянный)</translation>
+        <translation>Датчик цвета EV3 (освещённость)</translation>
     </message>
 </context>
 <context>
@@ -815,7 +815,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorBlue.h" line="+36"/>
         <source>Color sensor (blue)</source>
-        <translation>Сенсор цвета (синий)</translation>
+        <translation>Датчик цвета (синий)</translation>
     </message>
 </context>
 <context>
@@ -823,7 +823,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorFull.h" line="+37"/>
         <source>Color sensor (full)</source>
-        <translation>Сенсор цвета (распознавание цветов)</translation>
+        <translation>Датчик цвета (полный)</translation>
     </message>
 </context>
 <context>
@@ -831,7 +831,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorGreen.h" line="+36"/>
         <source>Color sensor (green)</source>
-        <translation>Сенсор цвета (зеленый)</translation>
+        <translation>Датчик цвета (зелёный)</translation>
     </message>
 </context>
 <context>
@@ -839,7 +839,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorPassive.h" line="+37"/>
         <source>Color sensor (passive)</source>
-        <translation>Сенсор цвета (пассивный)</translation>
+        <translation>Датчик цвета (пассивный)</translation>
     </message>
 </context>
 <context>
@@ -855,7 +855,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorRed.h" line="+36"/>
         <source>Color sensor (red)</source>
-        <translation>Сенсор цвета (красный)</translation>
+        <translation>Датчик цвета (красный)</translation>
     </message>
 </context>
 <context>
@@ -863,7 +863,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/include/twoDModel/robotModel/parts/colorSensorReflected.h" line="+33"/>
         <source>EV3 color sensor (reflected)</source>
-        <translation>Датчик цвета EV3 (отраженный)</translation>
+        <translation>Датчик цвета EV3 (отражённый свет)</translation>
     </message>
 </context>
 <context>
@@ -879,12 +879,12 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/parts/actionsBox.cpp" line="+25"/>
         <source>Hand dragging mode</source>
-        <translation>Режим таскания сцены</translation>
+        <translation>Режим перетаскивания вручную</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Multiselection mode</source>
-        <translation>Режим выделения</translation>
+        <translation>Режим множественного выбора</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -908,12 +908,12 @@
     <message>
         <location line="+3"/>
         <source>Clear items</source>
-        <translation>Очистить всё</translation>
+        <translation>Очистить объекты</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Clear floor</source>
-        <translation>Очистить пол от следов робота</translation>
+        <translation>Очистить пол</translation>
     </message>
 </context>
 <context>
@@ -926,12 +926,12 @@
     <message>
         <location line="+25"/>
         <source>Disable filling</source>
-        <translation>Не заливать</translation>
+        <translation>Отключить заливку</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Enable filling</source>
-        <translation>Заливать</translation>
+        <translation>Включить заливку</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1003,12 +1003,12 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/parts/detailsTab.cpp" line="+38"/>
         <source>Display</source>
-        <translation>Дисплей</translation>
+        <translation>Отображение</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ports configuration</source>
-        <translation>Порты</translation>
+        <translation>Конфигурация портов</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1044,32 +1044,32 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/parts/imageItemPopup.cpp" line="+58"/>
         <source>Image will be packed into save file. Warning: this will increase save file size.</source>
-        <translation>Картинка будет запакована в проект. Внимание: это значительно увеличит размер файла сохранения.</translation>
+        <translation>Изображение будет включено в файл сохранения. Внимание: это увеличит размер файла.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Image will not be packed into a save file. Warning: if will use save file on other machine or rename file this image will disappear from 2D model.</source>
-        <translation>Картинка не будет включена в файл сохранения. Внимание: при открытии текущего проекта на другой машине или переименовании файла с картинкой изображение в 2D модели пропадет.</translation>
+        <translation>Изображение не будет включено в файл сохранения. Внимание: если вы используете файл на другом компьютере или переименуете его, изображение исчезнет из 2D-модели.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The image will be in the background. Warning: the robot does not see this image.</source>
-        <translation>Изображение будет на заднем плане. Предупреждение: робот не видит это изображение.</translation>
+        <translation>Изображение будет на заднем плане. Внимание: робот не видит это изображение.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The image will be in the foreground. Warning: robot sees this image with sensors.</source>
-        <translation>Изображение будет на переднем плане. Предупреждение: робот видит это изображение с помощью сенсоров.</translation>
+        <translation>Изображение будет на переднем плане. Внимание: робот видит это изображение с помощью датчиков.</translation>
     </message>
     <message>
         <location line="+91"/>
         <source>Change image...</source>
-        <translation>Изменить картинку...</translation>
+        <translation>Изменить изображение...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Select image</source>
-        <translation>Выберите картинку</translation>
+        <translation>Выберите изображение</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1090,7 +1090,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/parts/robotItemPopup.cpp" line="+75"/>
         <source>Camera folowing robot: %1</source>
-        <translation>Следовать за роботом: %1</translation>
+        <translation>Камера следует за роботом: %1</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1105,12 +1105,12 @@
     <message>
         <location line="+7"/>
         <source>Return robot to the initial position</source>
-        <translation>Вернуть робота в исходное положение</translation>
+        <translation>Вернуть робота в начальное положение</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Move start position here</source>
-        <translation>Передвинуть стартовое положение робота сюда</translation>
+        <translation>Переместить начальную позицию сюда</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1123,7 +1123,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/parts/speedPopup.cpp" line="+5"/>
         <source>Reset to default</source>
-        <translation>По умолчанию</translation>
+        <translation>Сбросить к значениям по умолчанию</translation>
     </message>
 </context>
 <context>
@@ -1135,7 +1135,7 @@
     <message>
         <location filename="../../../../../plugins/robots/common/twoDModel/src/engine/view/scene/twoDModelScene.cpp" line="+811"/>
         <source>Select images</source>
-        <translation>Выберите картинки</translation>
+        <translation>Выберите изображения</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1150,7 +1150,7 @@
     <message>
         <location line="+1"/>
         <source>You are trying to load to big image, it may freeze execution for some time. Continue?</source>
-        <translation>Попытка загрузить слишком большое изображение может заморозить выполнение на некоторое время. Продолжить?</translation>
+        <translation>Вы пытаетесь загрузить слишком большое изображение, это может вызвать зависание на некоторое время. Продолжить?</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1160,7 +1160,7 @@
     <message>
         <location line="+1"/>
         <source>Cannot load %1. Try another file.</source>
-        <translation>Невозможно загрузить %1. Попробуйте другой файл.</translation>
+        <translation>Не удалось загрузить %1. Попробуйте другой файл.</translation>
     </message>
 </context>
 <context>
@@ -1196,34 +1196,34 @@
     <message>
         <location line="+279"/>
         <source>Training mode: solution will not be checked</source>
-        <translation>Режим тренировки: решение не будет проверяться</translation>
+        <translation>Режим обучения: решение не будет проверяться</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Checking mode: solution will be checked, errors will be reported</source>
-        <translation>Режим проверки: проверка решения будет осуществляться, об ошибках будет сообщаться</translation>
+        <translation>Режим проверки: решение будет проверено, ошибки будут сообщены</translation>
     </message>
     <message>
         <location line="+62"/>
         <source>Saving world and robot model</source>
-        <translation>Сохранение модели мира</translation>
+        <translation>Сохранение мира и модели робота</translation>
     </message>
     <message>
         <location line="+0"/>
         <location line="+20"/>
         <location line="+14"/>
         <source>2D model saves (*.xml)</source>
-        <translation>Файлы 2D модели (*.xml)</translation>
+        <translation>Сохранения 2D-модели (*.xml)</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Loading world and robot model</source>
-        <translation>Загрузка модели мира</translation>
+        <translation>Загрузка мира и модели робота</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Loading world without robot model</source>
-        <translation>Загрузка модели мира без модели робота</translation>
+        <translation>Загрузка мира без модели робота</translation>
     </message>
     <message>
         <source>Select background image</source>
@@ -1251,7 +1251,7 @@
         <location line="+206"/>
         <location line="+1"/>
         <source>No wheel</source>
-        <translation>Отсутствует</translation>
+        <translation>Нет колеса</translation>
     </message>
     <message>
         <location line="+6"/>

@@ -6,7 +6,7 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/ev3/ev3RbfGenerator/ev3RbfMasterGenerator.cpp" line="+60"/>
         <source>There is no opened diagram</source>
-        <translation>Сначала откройте диаграмму</translation>
+        <translation>Нет открытой диаграммы</translation>
     </message>
     <message>
         <source>/* Warning: cast from string to int is not supported */ 0</source>
@@ -15,17 +15,17 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/ev3/ev3RbfGenerator/lua/ev3LuaPrinter.cpp" line="+821"/>
         <source>/* Warning: cast from string to numeric type is not supported */ 0</source>
-        <translation>/* Внимание: преобразование типа из строки в числовой тип пока не поддерживается. Пожалуйста, обратитесь к разработчикам с запросом. */ 0</translation>
+        <translation>/* Предупреждение: преобразование из строки в числовой тип не поддерживается */ 0</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>/* Warning: autocast from array to other type is not supported */ 0</source>
-        <translation>/* Внимание: автоматическое преобразование типа из массива в другой тип не поддерживается. */ 0</translation>
+        <translation>/* Предупреждение: автоматическое преобразование из массива в другой тип не поддерживается */ 0</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>/* Warning: autocast is supported only for numeric types */ 0</source>
-        <translation>/* Внимание: автоматическое преобразование типов поддерживается только для числовых типов */ 0</translation>
+        <translation>/* Предупреждение: автоматическое преобразование поддерживается только для числовых типов */ 0</translation>
     </message>
 </context>
 <context>
@@ -47,7 +47,7 @@
     <message>
         <location line="+6"/>
         <source>Generate to Ev3 Robot Byte Code File</source>
-        <translation>Сгенерировать в байткод EV3</translation>
+        <translation>Создать файл байт-кода робота Ev3</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -62,32 +62,32 @@
     <message>
         <location line="+8"/>
         <source>Stop robot</source>
-        <translation>Остановить программу</translation>
+        <translation>Остановить робота</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>EV3 Source Code language</source>
-        <translation>Файл с байткодом EV3</translation>
+        <translation>Язык исходного кода EV3</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Generate Ev3 Robot Byte Code File</source>
-        <translation>Сгенерировать в байткод EV3</translation>
+        <translation>Создать файл байт-кода робота Ev3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Upload EV3 Program</source>
-        <translation>Загрузить программу</translation>
+        <translation>Загрузить программу EV3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run EV3 Program</source>
-        <translation>Запустить программу на EV3</translation>
+        <translation>Запустить программу EV3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stop EV3 Program</source>
-        <translation>Остановить программу на EV3</translation>
+        <translation>Остановить программу EV3</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;https://java.com/ru/download/&quot;&gt;Java&lt;/a&gt; is not installed. Please download and install it.</source>
@@ -96,12 +96,12 @@
     <message>
         <location line="+39"/>
         <source>Can&apos;t write source code files to disk!</source>
-        <translation>Не могу записать файлы с исходным кодом на диск!</translation>
+        <translation>Не удалось записать файлы исходного кода на диск!</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Compilation error occured.</source>
-        <translation>Ошибка компиляции.</translation>
+        <translation>Произошла ошибка компиляции.</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;https://java.com/ru/download/&quot;&gt;Java&lt;/a&gt; is not installed properly, but is required to upload programs to EV3.</source>
@@ -110,7 +110,7 @@
     <message>
         <location line="+135"/>
         <source>Could not upload file to robot. Connect to a robot via %1.</source>
-        <translation>Не могу загрузить файл на робота. Подключите робота по %1.</translation>
+        <translation>Не удалось загрузить файл на робота. Подключитесь к роботу через %1.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -125,12 +125,12 @@
     <message>
         <location line="-117"/>
         <source>The program has been uploaded</source>
-        <translation>Загрузка программы завершена успешно</translation>
+        <translation>Программа была загружена</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to run it?</source>
-        <translation>Хотите ли Вы запустить эту программу?</translation>
+        <translation>Хотите запустить её?</translation>
     </message>
     <message>
         <source>Could not upload file to robot. Connect to a robot via Bluetooth.</source>

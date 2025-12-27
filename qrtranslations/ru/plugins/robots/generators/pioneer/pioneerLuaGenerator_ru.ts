@@ -90,28 +90,28 @@
     <message>
         <location filename="../../../../../../plugins/robots/generators/pioneer/pioneerLuaGenerator/pioneerLuaMasterGenerator.cpp" line="+111"/>
         <source>There is no opened diagram</source>
-        <translation>Диаграмма не открыта</translation>
+        <translation>Нет открытой диаграммы</translation>
     </message>
     <message>
         <location filename="../../../../../../plugins/robots/generators/pioneer/pioneerLuaGenerator/generators/semanticTreeManager.cpp" line="+121"/>
         <source>Generation internal error, please send bug report to developers.Additional info: zone node %1 can not be used as labeled node.</source>
-        <translation>Внутренняя ошибка генерации. Дополнительная информация: узел зоны %1 не может быть использован как помеченный узел.</translation>
+        <translation>Внутренняя ошибка генерации, отправьте отчет об ошибке разработчикам. Дополнительная информация: узел зоны %1 не может использоваться как помеченный узел.</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Generation internal error, synchronous zone parent is a zone node.</source>
-        <translation>Внутренняя ошибка генерации. Дополнительная информация: в семантическом дереве родитель узла-зоны сам является узлом-зоной.</translation>
+        <translation>Внутренняя ошибка генерации: родитель синхронной зоны является узлом зоны.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Generation internal error, synchronous fragment zone is absent.</source>
-        <translation>Внутренняя ошибка генерации. Дополнительная информация: не найдена зона для узла начала синхронного фрагмента.</translation>
+        <translation>Внутренняя ошибка генерации: отсутствует зона синхронного фрагмента.</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+108"/>
         <source>Generation internal error, zone contains zone node.</source>
-        <translation>Внутренняя ошибка генерации. Дополнительная информация: в семантическом дереве узел-зона содержит узел-зону в качестве непосредственного сына.</translation>
+        <translation>Внутренняя ошибка генерации: зона содержит узел зоны.</translation>
     </message>
 </context>
 <context>
@@ -201,19 +201,19 @@
         <location line="-82"/>
         <location line="+40"/>
         <source>Pioneer base station IP address is not set. It can be set in Settings window.</source>
-        <translation>IP-адрес базовой станции Пионера не указан. Его можно указать в окне &quot;Настройки&quot; -&gt; &quot;Роботы&quot; -&gt; &quot;Пионер&quot;.</translation>
+        <translation>IP-адрес базовой станции Pioneer не задан. Его можно задать в окне настроек.</translation>
     </message>
     <message>
         <location line="-34"/>
         <location line="+40"/>
         <source>Pioneer base station port is not set. It can be set in Settings window.</source>
-        <translation>Порт базовой станции Пионера не указан. Его можно указать в окне &quot;Настройки&quot; -&gt; &quot;Роботы&quot; -&gt; &quot;Пионер&quot;.</translation>
+        <translation>Порт базовой станции Pioneer не задан. Его можно задать в окне настроек.</translation>
     </message>
     <message>
         <location line="-34"/>
         <location line="+9"/>
         <source>Generation failed, upload aborted.</source>
-        <translation>Генерация завершились с ошибкой, загрузка отменена.</translation>
+        <translation>Генерация не удалась, загрузка прервана.</translation>
     </message>
     <message>
         <location line="+6"/>

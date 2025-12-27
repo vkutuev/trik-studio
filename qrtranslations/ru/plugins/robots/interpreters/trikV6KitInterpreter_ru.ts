@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ru_RU">
 <context>
@@ -77,7 +77,7 @@
     <message>
         <location filename="../../../../plugins/robots/interpreters/trikV6KitInterpreter/src/trikV6KitInterpreterPlugin.cpp" line="+42"/>
         <source>TRIK (model-2014)</source>
-        <translation>ТРИК (модель 2014)</translation>
+        <translation>TRIK (модель-2014)</translation>
     </message>
 </context>
 <context>
@@ -192,7 +192,7 @@
     <name>trikKitInterpreter::robotModel::parts::TrikGamepadWheel</name>
     <message>
         <source>Android Gamepad Wheel</source>
-        <translation type="vanished">&quot;Руль&quot; Android-пульта</translation>
+        <translation type="vanished">"Руль" Android-пульта</translation>
     </message>
 </context>
 <context>
